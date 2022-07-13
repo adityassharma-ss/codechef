@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int test;
+   cin >> test;
+   while(test--){
+      int x;
+      cin >> x;
+      
+      int s= x*60;
+      cout << s/20 << endl;
+   }
+	// your code goes here
+	return 0;
+}
